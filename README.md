@@ -4,18 +4,22 @@
 
 A.	One Way:
 These functions are easy to compute in one direction, but essentially impossible in the other direction.
-f(x) = y  Easy to compute
-f-1(y) = x  NP hard
-B.	Trap Door:
-Identify applicable sponsor/s here. If no sponsors, delete this text box (sponsors).
-If a crucial piece of information is known, it is easy to calculate the inverse:
-f-1(y) = x, given trap door information  Easy
+f(x) = y -> Easy to compute
+f-1(y) = x -> NP hard
 
-An easy to understand example:
+B.	Trap Door:
+Identify applicable sponsor/s here. 
+If a crucial piece of information is known, it is easy to calculate the inverse:
+f-1(y) = x, given trap door information -> Easy
+
+# An easy to understand example:
+
 It is easy to mix different types of rice together.
-f(white rice + brown rice) = mixture  Easy
+* f(white rice + brown rice) = mixture -> Easy
+
 It is difficult to separate
-f-1(mixture) = white rice + brown rice
+* f-1(mixture) = white rice + brown rice
+
 If we had the “trap-door” piece of information, f-1() would become an easy operation.
 
 # Safety
